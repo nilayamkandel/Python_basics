@@ -1,0 +1,3 @@
+# class mob:
+#     def config:
+
