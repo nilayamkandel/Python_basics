@@ -63,4 +63,13 @@ for i in range(6,0,-1):
     print()
 
 
-print("Hello world")
+# The outer loop tells us the number of rows, 
+# and the inner loop tells us the column needed to print the pattern.
+
+# PYRAMID PATTERNS OF NUMBERS
+# 1 
+# 1 2 
+# 1 2 3 
+# 1 2 3 4 
+# 1 2 3 4 5   Solution should look like these 
+
