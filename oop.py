@@ -19,7 +19,22 @@ class mobile:
         self.memory = memory     #we created an attribute of the class mobile
         self.color= color
         print(memory)
+        print(color)
 samsung =mobile("5 gb","blue")
 iphone = mobile("1 tb","pink")
+
+#Different way of solving or getting output
+class Beverage:
+    def __init__(self,strong,loose):
+        self.strong  = strong
+        self.loose = loose
+    def strong_coffee(self):
+        return self.strong
+    def loose_coffee(self):
+        return self.loose
+espresso = Beverage("edible","sweet")
+print(espresso.strong_coffee())
+americano = Beverage("edible","sweet")
+print(americano.loose_coffee())
 
 
