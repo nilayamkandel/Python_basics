@@ -37,4 +37,7 @@ print(espresso.strong_coffee())
 americano = Beverage("edible","sweet")
 print(americano.loose_coffee())
 
+#OOP in python. Little project on OOP
+
+
 
