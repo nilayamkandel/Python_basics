@@ -55,7 +55,22 @@ class Course:
         self.students = []
 
     def add_student(self,student):
-        self.student.append(Student)
+        if len(self.students) > (self.max_student):
+            self.students.append(Student)
+            return True
+        return False
+
+s1 = Student("neelayam",23,95)
+s2 = Student("prashanti",25,98)
+
+c1 = Course("Optionalmaths",5)
+
+c2 = Course("Economic",7)
+
+print(input("the number of maximum student is" .Course.self(max_student)))
+
+
+
 
 
 
