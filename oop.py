@@ -39,5 +39,25 @@ print(americano.loose_coffee())
 
 #OOP in python. Little project on OOP
 
+class Student:
+    def __init__(self,name,age,grades):
+        self.name = name
+        self.age = age
+        self.grades = grades
 
+    def get_grades(self):
+        return self.grades
+
+class Course:
+    def __init__(self,course_name,max_student):
+        self.course_name = course_name
+        self.max_student = max_student
+        self.students = []
+
+    def add_student(self,student):
+        self.student.append(Student)
+
+
+
+        
 
