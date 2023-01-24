@@ -64,10 +64,14 @@ s1 = Student("neelayam",23,95)
 s2 = Student("prashanti",25,98)
 
 c1 = Course("Optionalmaths",5)
-
 c2 = Course("Economic",7)
 
-print(input("the number of maximum student is" .Course.self(max_student)))
+c1.add_student(s1)          #OM rule you remembered(object.method)
+print(c1.add_student(s2))
+print()
+
+
+# print(input("the number of maximum student is" .Course.self(max_student)))
 
 
 
