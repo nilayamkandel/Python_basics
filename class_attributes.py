@@ -28,3 +28,16 @@ p2 = Person("alex")
 
 print(f"The number of max people allowed is : {Person.max_person}")
 print(p1.max_person) 
+
+#Another one
+class Person:
+    no_of_people = 0
+
+    def __init__(self,name):
+        self.name = name
+        Person.no_of_people += 1     #with these line we can calculate the number of object we have assigned.
+
+p1 = Person("jack")
+p2 = Person("jill")
+p4 = Person("samy")
+print(Person.no_of_people)
