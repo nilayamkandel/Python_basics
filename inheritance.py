@@ -73,7 +73,7 @@ class dog(animals):
         print("I can bark")
 
     def __init__(self,name,age,color):
-        super().__init__(name,age,color)
+        super().__init__(name,age)
         self.color = color
 
     def show(self):
