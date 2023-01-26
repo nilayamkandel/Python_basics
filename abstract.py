@@ -19,17 +19,19 @@ print("Select any operation:\n"
     "3: Multiply\n"
     "4: Divide\n")
 
-choose_option = "1,2,3,4"
+choose_option = [1,2,3,4]
 choose = (int(input(f"Select any one of the operations between {choose_option} :")))
 
-for choose_option in choose:
-    if choose == choose_option:
+if choose == choose_option:
         num1 = (int(input("Enter a number: ")))
         num2 = (int(input("Enter a number: ")))
-    else:
-        print("Option unavailable")
-    continue
-print (choose)
+else:
+    print("Option unavailable")
+    for i in choose_option:
+        print(choose)
+        if i != choose:
+            continue
+        
 
 if choose == 1:
     print(num1, "+" ,num2, "=" ,add(num1,num2))
