@@ -12,7 +12,7 @@
 def user_input(isNumber = True ,isExit = False):
     if not isExit:
         input_type = ""
-        if isNumber: 
+        if isNumber:
             input_type = "number"
         else:
             input_type = "condition"

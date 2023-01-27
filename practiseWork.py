@@ -9,4 +9,3 @@
 # print(value)
 # dir(__builtins__)
 
-print(input(""))
