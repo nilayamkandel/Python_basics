@@ -1,7 +1,7 @@
 # The outer loop tells us the number of rows, 
 # and the inner loop tells us the column needed to print the pattern.
 
-#NESTED LOOP BASICS
+# NESTED LOOP BASICS
 # * * * *
 # * * * *
 # * * * *
@@ -39,5 +39,9 @@ for i in range(5,0,-1):
     for j in range(1,i+1):
         print(b, end=" ")
     print()
+
+print(input("Enter the number of iterations : "))
+print(input("Enter the character sequence : "))
+
 
 
