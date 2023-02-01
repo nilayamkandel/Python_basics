@@ -57,10 +57,10 @@
 #         print('@',end=' ')
 #     print()
 
-for i in range(6,0,-1):
-    for j in range(1,i+1):
-        print(j,end=" ")
-    print()
+# for i in range(6,0,-1):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print()
 
 
 # The outer loop tells us the number of rows, 
@@ -72,4 +72,15 @@ for i in range(6,0,-1):
 # 1 2 3 
 # 1 2 3 4 
 # 1 2 3 4 5   Solution should look like these 
+
+class NegativeAgeError(Exception):
+
+    def __init__(self, age, message ):
+        message = "Age should not be negative"
+        self.age = age
+        self.message = message
+
+age = int(input("Enter age: "))
+if age < 0:
+    raise NegativeAgeError(age)
 
